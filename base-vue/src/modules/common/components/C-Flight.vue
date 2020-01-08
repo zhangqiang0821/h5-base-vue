@@ -1,4 +1,4 @@
-<!--Created by 张强(https://github.com/ccqiuqiu) on 2018/1/9.-->
+<!--Created by 张强 on 2018/1/9.-->
 <template>
   <div>
     <div

@@ -1,5 +1,5 @@
 /**
- * Created by 张强(https://github.com/ccqiuqiu) on 2018/1/18.
+ * Created by 张强 on 2018/1/18.
  */
 import zhCN from 'date-fns/esm/locale/zh-CN'
 import enUs from 'date-fns/esm/locale/en-US'

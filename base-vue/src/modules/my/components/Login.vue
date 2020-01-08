@@ -1,4 +1,4 @@
-<!--Created by 张强(https://github.com/ccqiuqiu) on 2018/1/11.-->
+<!--Created by 张强 on 2018/1/11.-->
 <template>
   <mu-card class="m-20">
     <mu-card-title

@@ -1,8 +1,8 @@
 {
   "name": "dc-air",
   "version": "1.0.0",
-  "description": "多彩微官网项目",
-  "author": "xiongcc <cc--x@163.com>",
+  "description": "h5-base-vue",
+  "author": "",
   "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",
