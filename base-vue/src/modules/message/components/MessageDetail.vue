@@ -1,0 +1,59 @@
+<!--Created by 张强(https://github.com/ccqiuqiu) on 2018/1/10.-->
+<template>
+  <air-scroll>
+    <div @click="$r.push('/message/test')">
+      <p>detaildetaildetaildetaildetaildetaildetaildetaildetaildetaildetaildetaildetaildetail</p>
+      <p>detail</p>
+      <p>detail</p>
+      <p>detail</p>
+      <p>detail</p>
+      <p>detail</p>
+      <p>detail</p>
+      <p>detail</p>
+      <p>detail</p>
+      <p>detail</p>
+      <p>detail</p>
+      <p>detail</p>
+      <p>detail</p>
+      <p>detail</p>
+      <p>detail</p>
+      <p>detail</p>
+      <p>detail</p>
+      <p>detail</p>
+      <p>detail</p>
+      <p>detail</p>
+      <p>detail</p>
+      <p>detail</p>
+      <p>detail</p>
+      <p>detail</p>
+      <p>detail</p>
+      <p>detail</p>
+      <p>detail</p>
+      <p>detail</p>
+      <p>detail</p>
+      <p>detail</p>
+    </div>
+  </air-scroll>
+</template>
+
+<script>
+import { mapState } from 'vuex'
+import mixin from '$g/mixin'
+
+export default {
+  components: {},
+  mixins: [mixin.updateBar],
+  data () {
+    return {
+      headerBar: this.$t('消息')
+    }
+  },
+  computed: {
+    ...mapState([])
+  },
+  methods: {}
+}
+</script>
+
+<style scoped>
+</style>

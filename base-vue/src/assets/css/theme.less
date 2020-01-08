@@ -1,0 +1,114 @@
+/**
+ * Created by 张强 on 2017/8/4.
+ */
+@import './vars';
+@import '~muse-ui/less/theme.less';
+
+#app {
+  // 覆盖组件库的样式
+  .mu-icon-button {
+    width: auto;
+    height: auto;
+  }
+
+  .mu-list {
+    padding: 0;
+    margin: 12px 0;
+  }
+  .mu-raised-button {
+    font-size: 16px;
+  }
+  .mu-list .mu-sub-header:first-child {
+    margin-top: 0;
+  }
+  // appBar样式
+  .mu-appbar {
+    height: @barHight;
+    padding: 0;
+    position: relative;
+
+    .mu-icon-button {
+      height: @barHight;
+      width: @barHight;
+      padding: 0;
+    }
+
+    .mu-appbar-title {
+      line-height: @barHight;
+      text-align: center;
+      padding-left: 5px;
+      font-size: 40 / @rem;
+    }
+    .left,
+    .right {
+      position: absolute;
+      top: 0;
+    }
+    .right {
+      right: 0;
+    }
+  }
+  // footerBar样式
+  .mu-bottom-nav {
+    height: @barHight;
+
+    .mu-buttom-item {
+      max-width: none;
+      padding-top: 2px;
+
+      .mu-buttom-item-wrapper {
+        line-height: 18 / @rem;
+
+        .mu-badge {
+          font-size: 18 / @rem;
+        }
+        .mu-badge-circle {
+          width: 30 / @rem;
+          height: 30 / @rem;
+        }
+        .mu-badge-float {
+          top: -0.04rem;
+          right: -0.16rem;
+        }
+      }
+    }
+    .mu-bottom-item-active svg {
+      color: @primaryColor;
+    }
+    .mu-bottom-item-text {
+      font-size: 20 / @rem;
+    }
+    .mu-bottom-item-active .mu-bottom-item-text {
+      font-size: 22 / @rem;
+    }
+    .mu-flat-button .icon,
+    .mu-raised-button .icon {
+      margin-left: 10px;
+    }
+  }
+  // 白色背景的tabs样式
+  .mu-tabs-white {
+    background-color: #ffffff;
+
+    .mu-tab-link {
+      color: @darkBlack;
+    }
+    .mu-tab-active.mu-tab-link {
+      color: @accentColor;
+    }
+  }
+  // toast样式
+  .mu-toast {
+    width: initial !important;
+    min-width: initial !important;
+    height: 40px;
+    line-height: 40px;
+    left: 50%;
+    right: auto;
+    top: auto !important;
+    //top: calc(~"100% - 16px - 40px");
+    bottom: calc(~'1rem + 16px') !important;
+    transform: translate(-50%, 0);
+    display: inline !important;
+  }
+}
