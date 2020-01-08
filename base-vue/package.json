@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "airui-vue": "^0.3.40",
-    "axios": "^0.16.2",
+    "axios": "^0.18.1",
     "babel-polyfill": "^6.23.0",
     "date-fns": "^2.0.0-alpha.7",
     "flex.css": "^1.1.7",
