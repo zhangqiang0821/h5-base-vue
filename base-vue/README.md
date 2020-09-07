@@ -18,8 +18,8 @@ node.js > 6.10
 # 命令
 
 ```
-npm run dev    # 开发
-npm run dev-m # 开发，使用本地的mock数据
+npm run dev    # 开发   
+npm run dev-m  # 开发，使用本地的mock数据
 npm run build  # 发布
 npm run build-m  # 发布，使用本地的mock数据
 ```
